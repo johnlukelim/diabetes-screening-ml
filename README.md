@@ -7,6 +7,14 @@ This project builds an end-to-end machine learning pipeline in Python to predict
 
 The project replicates and extends a prior statistical analysis by implementing multiple supervised learning models and comparing their performance under healthcare-focused evaluation criteria.
 
+## Project Origins and Extension
+This project builds upon a prior statistical analysis completed in R as part of undergraduate coursework. For this iteration, the analysis was re implemented and substantially extended in Python, with a stronger emphasis on machine learning workflows and healthcare focused evaluation.
+
+Beyond reproducing the original results, additional models including Random Forests were introduced, preprocessing was refactored into reusable pipelines, and model comparison was reframed around false negative rate and recall rather than accuracy alone. This allowed deeper exploration of trade offs between interpretability, stability, and predictive performance.
+
+Working in Python also provided the opportunity to independently learn and apply key data science libraries such as pandas, scikit learn, and matplotlib, without constraints imposed by coursework structure. This autonomy enabled more deliberate experimentation, clearer reasoning about modelling choices, and a stronger end to end understanding of the machine learning process.
+
+
 ---
 
 ## Dataset
@@ -100,6 +108,14 @@ Metric importance was prioritised based on healthcare relevance, with false nega
 
 ## Conclusion
 This project demonstrates how machine learning models can be applied to healthcare screening problems with careful consideration of evaluation metrics. It shows that simpler, interpretable models can outperform more complex alternatives when domain specific priorities are correctly defined.
+
+## Project Origins and Extension
+This project builds upon a prior statistical analysis completed in R as part of undergraduate coursework. For this iteration, the analysis was re implemented and substantially extended in Python, with a stronger emphasis on machine learning workflows and healthcare focused evaluation.
+
+Beyond reproducing the original results, additional models including Random Forests were introduced, preprocessing was refactored into reusable pipelines, and model comparison was reframed around false negative rate and recall rather than accuracy alone. This allowed deeper exploration of trade offs between interpretability, stability, and predictive performance.
+
+Working in Python also provided the opportunity to independently learn and apply key data science libraries such as pandas, scikit learn, and matplotlib, without constraints imposed by coursework structure. This autonomy enabled more deliberate experimentation, clearer reasoning about modelling choices, and a stronger end to end understanding of the machine learning process.
+
 
 ---
 
