@@ -109,12 +109,14 @@ Metric importance was prioritised based on healthcare relevance, with false nega
 ## Conclusion
 This project demonstrates how machine learning models can be applied to healthcare screening problems with careful consideration of evaluation metrics. It shows that simpler, interpretable models can outperform more complex alternatives when domain specific priorities are correctly defined.
 
-## Project Origins and Extension
-This project builds upon a prior statistical analysis completed in R as part of undergraduate coursework. For this iteration, the analysis was re implemented and substantially extended in Python, with a stronger emphasis on machine learning workflows and healthcare focused evaluation.
+## Reflection
+This project marked an important transition from statistics focused coursework to applied machine learning practice.
 
-Beyond reproducing the original results, additional models including Random Forests were introduced, preprocessing was refactored into reusable pipelines, and model comparison was reframed around false negative rate and recall rather than accuracy alone. This allowed deeper exploration of trade offs between interpretability, stability, and predictive performance.
+Rebuilding the analysis from scratch in Python required more explicit reasoning about data leakage, preprocessing design, and evaluation strategy, particularly in the context of imbalanced healthcare data. Prioritising false negative rate over headline accuracy reshaped how model performance was interpreted and reinforced the importance of aligning evaluation metrics with real world consequences.
 
-Working in Python also provided the opportunity to independently learn and apply key data science libraries such as pandas, scikit learn, and matplotlib, without constraints imposed by coursework structure. This autonomy enabled more deliberate experimentation, clearer reasoning about modelling choices, and a stronger end to end understanding of the machine learning process.
+The work also highlighted that more complex models do not automatically lead to better outcomes. Despite its simplicity, Logistic Regression performed strongly when assessed under healthcare relevant criteria, demonstrating the value of interpretable models in medical screening tasks.
+
+Overall, this project strengthened both technical proficiency and modelling judgement, and helped develop a more independent, principle driven approach to machine learning beyond formal academic requirements.
 
 
 ---
