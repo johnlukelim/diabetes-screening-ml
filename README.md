@@ -85,7 +85,7 @@ Metric importance was prioritised based on healthcare relevance, with false nega
 
 ## Files
 - `diabetes_ml.ipynb`: Full Python implementation including EDA, preprocessing, model training, tuning, and evaluation
-- `Diabetes_Report.pdf`: Detailed statistical report with results and discussion
+- `Diabetes_report.pdf`: Detailed statistical report with results and discussion
 - `figures/`: Visualisations used in analysis and reporting
 
 ---
